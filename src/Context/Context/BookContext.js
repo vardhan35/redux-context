@@ -1,5 +1,4 @@
 import React, { useState, createContext } from "react";
-import { uuid } from "uuid";
 
 export const BookContext = createContext();
 
@@ -10,15 +9,15 @@ const BookProvider = (props) => {
     { id: 3, name: "BOOK 3" },
   ]);
   const addBook = (name) => {
-    setbooks([...books, { name, id: uuid() }]);
+    setbooks([...books, { name, id: 4 }]);
   };
   const removeBook = (id) => {
     setbooks(books.map((book) => book.id !== id));
   };
   return (
-    <BookContext value={{ books, addBook, removeBook }}>
+    <BookProvider value={{ books, addBook, removeBook }}>
       {props.children}
-    </BookContext>
+    </BookProvider>
   );
 };
 
