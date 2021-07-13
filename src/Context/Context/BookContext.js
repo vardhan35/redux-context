@@ -12,12 +12,12 @@ const BookProvider = (props) => {
     setbooks([...books, { name, id: 4 }]);
   };
   const removeBook = (id) => {
-    setbooks(books.map((book) => book.id !== id));
+    setbooks(books.filter((book) => book.id !== id));
   };
   return (
-    <BookProvider value={{ books, addBook, removeBook }}>
+    <BookContext.Provider value={{ books, addBook, removeBook }}>
       {props.children}
-    </BookProvider>
+    </BookContext.Provider>
   );
 };
 
