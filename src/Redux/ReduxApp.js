@@ -2,6 +2,7 @@ import React from "react";
 import CakeContainer from "./Components/CakeContainer";
 import CakeContainerHooks from "./Components/CakeContainerHooks";
 import IceCreamContainer from "./Components/IceCreamContainer";
+import NewCakeContainer from "./Components/NewCakeContainer";
 
 const ReduxApp = () => {
   return (
@@ -9,6 +10,7 @@ const ReduxApp = () => {
       <CakeContainer />
       <CakeContainerHooks />
       <IceCreamContainer />
+      <NewCakeContainer />
     </div>
   );
 };
