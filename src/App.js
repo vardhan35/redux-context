@@ -1,7 +1,9 @@
+import FetchApiApp from "./FetchApi/FetchApiApp";
+
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <FetchApiApp />
     </div>
   );
 }
