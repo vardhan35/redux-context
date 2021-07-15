@@ -9,10 +9,10 @@ const ReduxApp = () => {
   return (
     <div>
       <UserContainer />
-      {/* <CakeContainer />
+      <CakeContainer />
       <CakeContainerHooks />
       <IceCreamContainer />
-      <NewCakeContainer /> */}
+      <NewCakeContainer />
     </div>
   );
 };
