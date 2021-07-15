@@ -3,14 +3,16 @@ import CakeContainer from "./Components/CakeContainer";
 import CakeContainerHooks from "./Components/CakeContainerHooks";
 import IceCreamContainer from "./Components/IceCreamContainer";
 import NewCakeContainer from "./Components/NewCakeContainer";
+import UserContainer from "./Components/UserContainer";
 
 const ReduxApp = () => {
   return (
     <div>
-      <CakeContainer />
+      <UserContainer />
+      {/* <CakeContainer />
       <CakeContainerHooks />
       <IceCreamContainer />
-      <NewCakeContainer />
+      <NewCakeContainer /> */}
     </div>
   );
 };
