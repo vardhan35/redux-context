@@ -1,7 +1,12 @@
 import React from "react";
+import Axios from "./Components/Axios";
 
 const FetchApiApp = () => {
-  return <h1>Hello from FetchApiApp</h1>;
+  return (
+    <div>
+      <Axios />
+    </div>
+  );
 };
 
 export default FetchApiApp;
