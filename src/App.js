@@ -1,11 +1,5 @@
-import HooksApp from "./Hooks/HooksApp";
-
 function App() {
-  return (
-    <div className="App">
-      <HooksApp />
-    </div>
-  );
+  return <div className="App"></div>;
 }
 
 export default App;
