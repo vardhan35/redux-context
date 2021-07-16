@@ -1,9 +1,9 @@
-import UseCallBackApp from "./Callback/UseCallBackApp";
+import MemoApp from "./Memo/MemoApp";
 
 function App() {
   return (
     <div className="App">
-      <UseCallBackApp />
+      <MemoApp />
     </div>
   );
 }
