@@ -1,7 +1,12 @@
 import React from "react";
+import UseRef from "./Components/UseRef";
 
 const HooksApp = () => {
-  return <h1>Hello From Hooks App</h1>;
+  return (
+    <div>
+      <UseRef />
+    </div>
+  );
 };
 
 export default HooksApp;
